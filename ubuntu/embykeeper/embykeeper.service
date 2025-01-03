@@ -1,0 +1,14 @@
+[Unit]
+Description=EmbyKeeper Service
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=ubuntu
+ExecStart=/home/ubuntu/projects/ubuntu/clash/clash -f /home/ubuntu/projects/ubuntu/clash/config.yaml
+WorkingDirectory=/home/ubuntu/projects/ubuntu/clash/
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
