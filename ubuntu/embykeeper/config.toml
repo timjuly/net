@@ -3,6 +3,7 @@ time = "<0:00AM,1:00AM>"
 
 # 将关键信息发送到第一个 Telegram 账号, 设为 N 以发送到第 N 个.
 notifier = true
+notify_immediately = true
 
 # 每个 Telegram Bot 签到的最大尝试时间 (秒).
 timeout = 240
