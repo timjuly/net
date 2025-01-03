@@ -5,7 +5,7 @@ Wants=network-online.target
 
 [Service]
 User=ubuntu
-ExecStart=embykeeper /home/ubuntu/projects/net/ubuntu/embykeeper/config.toml
+ExecStart=/home/ubuntu/.local/bin/embykeeper /home/ubuntu/projects/net/ubuntu/embykeeper/config.toml
 WorkingDirectory=/home/ubuntu/projects/net/ubuntu/embykeeper/
 Restart=always
 RestartSec=5
