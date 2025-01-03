@@ -3,8 +3,8 @@ ln -s /home/ubuntu/projects/net/ubuntu/clash/clash.service /etc/systemd/system/c
 ```
 
 ```
-systemctl enable clash
-systemctl start clash
+sudo systemctl enable clash
+sudo systemctl start clash
 ```
 
 ```
