@@ -37,7 +37,7 @@ port = 7890
 scheme = "http" # 可选: http / socks5
 
 [service]
-checkiner = ["zm", "sfcju", "micu"]
+checkiner = ["zm", "sfcju", "micu", "tdck"]
 
 [[telegram]]
 phone = "+8613255802980"
