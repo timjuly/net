@@ -7,7 +7,7 @@ pip install embykeeper
 ```
 
 ```
-ln -s /home/ubuntu/projects/ubuntu/embykeeper/embykeeper.service /etc/systemd/system/embykeeper.service
+ln -s /home/ubuntu/projects/net/ubuntu/embykeeper/embykeeper.service /etc/systemd/system/embykeeper.service
 ```
 
 ```

@@ -5,8 +5,8 @@ Wants=network-online.target
 
 [Service]
 User=ubuntu
-ExecStart=/home/ubuntu/projects/ubuntu/clash/clash -f /home/ubuntu/projects/ubuntu/clash/config.yaml
-WorkingDirectory=/home/ubuntu/projects/ubuntu/clash/
+ExecStart=/home/ubuntu/projects/net/ubuntu/clash/clash -f /home/ubuntu/projects/net/ubuntu/clash/config.yaml
+WorkingDirectory=/home/ubuntu/projects/net/ubuntu/clash/
 Restart=always
 RestartSec=5
 

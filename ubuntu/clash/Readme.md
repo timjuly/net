@@ -1,5 +1,5 @@
 ```
-ln -s /home/ubuntu/projects/ubuntu/clash/clash.service /etc/systemd/system/clash.service
+ln -s /home/ubuntu/projects/net/ubuntu/clash/clash.service /etc/systemd/system/clash.service
 ```
 
 ```
