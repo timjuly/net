@@ -5,8 +5,8 @@ Wants=network-online.target
 
 [Service]
 User=ubuntu
-ExecStart=/home/ubuntu/projects/net/ubuntu/clash/clash -f /home/ubuntu/projects/net/ubuntu/clash/config.yaml
-WorkingDirectory=/home/ubuntu/projects/net/ubuntu/clash/
+ExecStart=embykeeper /home/ubuntu/projects/net/ubuntu/embykeeper/config.toml
+WorkingDirectory=/home/ubuntu/projects/net/ubuntu/embykeeper/
 Restart=always
 RestartSec=5
 
